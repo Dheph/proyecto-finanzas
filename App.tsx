@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.menuText}>Hola</Text>
+      <Text style={styles.menuText}>Proyecto finanzas</Text>
     </View>
   );
 }
