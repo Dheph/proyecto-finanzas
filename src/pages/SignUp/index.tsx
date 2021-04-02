@@ -26,7 +26,7 @@ export default function SignUp() {
             autoCorrect={false}
             autoCapitalize="none"
             value={name}
-            onChangeText={(text) => setEmail(text)}
+            onChangeText={(text) => setName(text)}
           />
         </AreaInput>
 

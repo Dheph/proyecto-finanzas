@@ -39,6 +39,7 @@ export default function SignIn() {
             placeholder="Password"
             autoCorrect={false}
             autoCapitalize="none"
+            securityText={true}
             value={password}
             onChangeText={(text) => setPassword(text)}
           />
